@@ -1,0 +1,49 @@
+PolyForm Noncommercial License 1.0.0
+
+https://polyformproject.org/licenses/noncommercial/1.0.0
+
+Acceptance
+
+In order to receive this license, you must agree to its terms. The terms of this license are conditions to the rights granted to you. If you do not agree to such terms, you have no rights under this license.
+
+Copyright License
+
+The licensor grants you a copyright license to the software to do everything you would be able to do with the software if you had full ownership, so long as you comply with the terms of this license.
+
+Noncommercial Limit
+
+You may not use the software for any commercial purpose.
+
+Notice
+
+You must ensure that anyone who gets a copy of any part of this software from you also gets a copy of the terms of this license and all copyright notices included with the software.
+
+Patent License
+
+The licensor grants you a patent license to the software to do everything you would be able to do with the software if you had full ownership, so long as you comply with the terms of this license.
+
+Fair Use
+
+You may use the software in any way that is fair use under United States copyright law or equivalent rights under other copyright laws.
+
+No Other Rights
+
+These terms do not grant you any other rights, including rights under trademark, domain name, or trade dress law.
+
+No Warranty
+
+The licensor offers the software as-is, without any warranty, to the real-world extent allowed by law.
+
+Limitation of Liability
+
+The licensor will not be liable for any damages related to this license or the software, under any legal theory, to the real-world extent allowed by law.
+
+Definitions
+
+"commercial purpose" means any purpose that is intended for or directed toward commercial advantage or monetary compensation.
+
+"licensor" means the entity offering this license.
+
+"software" means the software made available under this license.
+
+"you" means the entity taking this license.
