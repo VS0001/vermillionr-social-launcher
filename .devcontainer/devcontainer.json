@@ -1,0 +1,17 @@
+{
+  "name": "Cloud Browser Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": []
+    }
+  },
+  "portsAttributes": {
+    "6080": {
+      "label": "noVNC Cloud Browser",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "forwardPorts": [6080]
+}
