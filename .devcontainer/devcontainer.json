@@ -1,5 +1,5 @@
 {
-  "name": "Kiosk Browser Codespace",
+  "name": "VERMILLIONR SOCIAL EXECUTION ENVIRONMENT",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
   "postCreateCommand": "sudo apt-get update && sudo apt-get install -y xvfb x11vnc fluxbox novnc websockify && npm install",
   "customizations": {
