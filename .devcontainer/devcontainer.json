@@ -7,7 +7,10 @@
       "unextensions": [
         "github.copilot",
         "github.copilot-chat"
-      ]
+      ],
+      "settings": {
+        "workbench.auxiliaryBar.visible": false
+      }
     }
   },
   "portsAttributes": {
