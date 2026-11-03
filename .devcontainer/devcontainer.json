@@ -3,7 +3,11 @@
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
   "customizations": {
     "vscode": {
-      "extensions": []
+      "extensions": [],
+      "unextensions": [
+        "github.copilot",
+        "github.copilot-chat"
+      ]
     }
   },
   "portsAttributes": {
