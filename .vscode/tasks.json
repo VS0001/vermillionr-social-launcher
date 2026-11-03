@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Auto Start Kiosk Browser",
+      "label": "Vermillionr Social Start-up Code",
       "type": "shell",
       "command": "npm start",
       "runOptions": {
