@@ -1,5 +1,5 @@
 {
-  "name": "Kiosk Browser Codespace",
+  "name": "Vermillionr Social Execution Environment",
   "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
   "postCreateCommand": "npm install && npm start",
   "customizations": {
