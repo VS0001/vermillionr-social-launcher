@@ -1,13 +1,12 @@
 {
-  "name": "Vermillionr Social Environment",
-  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y xvfb x11vnc fluxbox novnc websockify && npm install && chmod +x start.sh",
-  "forwardPorts": [6080],
-  "portsAttributes": {
-    "6080": {
-      "label": "Vermillionr Social Display",
-      "onAutoForward": "openPreview"
-    }
+  "name": "vermillionr-social",
+  "version": "1.0.0",
+  "description": "Vermillionr Social Environment",
+  "main": "index.js",
+  "scripts": {
+    "start": "bash start.sh"
   },
-  "postAttachCommand": "npm start"
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
 }
