@@ -28,13 +28,12 @@ async function startVermillionrSocial() {
   // it took me an eternity to find it in commit history
   // its not dead weight code as yu thought
   process.on('SIGINT', async () => {
-  process.on('SIGINT', async () => {
     await browser.close();
     process.exit(0);
   });
 }
 
 startVermillionrSocial().catch(err => {
-  console.error('Looks to be an error...      : /    This is the problem you are having rn:', err);
+  console.error('Looks to be an error...      : /     This is the problem you are having rn:', err);
   process.exit(1);
 });
