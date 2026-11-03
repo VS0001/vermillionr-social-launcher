@@ -1,12 +1,13 @@
 {
-  "name": "vermillionr-social",
-  "version": "1.0.0",
-  "description": "Vermillionr Social Environment",
-  "main": "index.js",
-  "scripts": {
-    "start": "bash start.sh"
+  "name": "Vermillionr Social Environment",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "postCreateCommand": "sudo sed -i 's/deb.debian.org/archive.debian.org/g' /etc/apt/sources.list && sudo sed -i 's/security.debian.org/archive.debian.org/g' /etc/apt/sources.list && sudo sed -i '/bullseye-updates/d' /etc/apt/sources.list && sudo apt-get update && sudo apt-get install -y --allow-downgrades xvfb x11vnc fluxbox novnc websockify && npm install && chmod +x start.sh",
+  "forwardPorts": [6080],
+  "portsAttributes": {
+    "6080": {
+      "label": "Vermillionr Social Display",
+      "onAutoForward": "openPreview"
+    }
   },
-  "dependencies": {
-    "puppeteer": "^22.0.0"
-  }
+  "postAttachCommand": "npm start"
 }
