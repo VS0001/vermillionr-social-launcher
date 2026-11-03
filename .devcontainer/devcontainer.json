@@ -1,20 +1,10 @@
 {
-  "name": "Cloud Browser Codespace",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "name": "Kiosk Browser Codespace",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "postCreateCommand": "npm install && npm start",
   "customizations": {
     "vscode": {
-      "extensions": [],
-      "settings": {
-        "workbench.auxiliaryBar.visible": false
-      }
+      "extensions": []
     }
-  },
-  "portsAttributes": {
-    "6080": {
-      "label": "noVNC Cloud Browser",
-      "onAutoForward": "openBrowser"
-    }
-  },
-  "postCreateCommand": "bash .devcontainer/setup.sh",
-  "forwardPorts": [6080]
+  }
 }
