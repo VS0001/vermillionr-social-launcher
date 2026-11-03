@@ -4,16 +4,18 @@ async function startVermillionrSocial() {
   console.log('Launching Vermillionr Social Environment :D');
 
   const browser = await puppeteer.launch({
-    headless: false, //falses by auto if yu are using XFVB extension which yu SHOUDLNT BE DOING *ahem*
+    headless: true, //falses by auto if yu are using XFVB extension which yu SHOUDLNT BE DOING *ahem*
     args: [
-      '--display=:99',
       '--kiosk',
       '--no-sandbox',
       '--disable-setuid-sandbox',
       '--disable-infobars',
       '--window-size=1920,1080'
     ],
-    defaultViewport: null
+    defaultViewport: {
+      width: 1920,
+      height: 1080
+    }
   });
 
   const page = await browser.newPage();
