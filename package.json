@@ -1,0 +1,12 @@
+{
+  "name": "kiosk-browser",
+  "version": "1.0.0",
+  "description": "Vermillionr Launcher Application to run the amazing V-Social :D",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "puppeteer": "^22.0.0"
+  }
+}
