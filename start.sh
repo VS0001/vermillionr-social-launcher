@@ -11,7 +11,6 @@ export DISPLAY=:99
 fluxbox &
 x11vnc -display :99 -forever -nopw -rfbport 5900 &
 
-#  use python if path's missing (dont yu dare gloat chipmunk...)
 python3 -m websockify.websocketproxy --web=/usr/share/novnc 6080 localhost:5900 &
 
 node index.js
