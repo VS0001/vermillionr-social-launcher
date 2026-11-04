@@ -24,6 +24,7 @@ async function startVermillionrSocial() {
   });
 
   console.log('Vermillionr Social successfully booted! Congrats! :D');
+  
   // chimpunk_998, since you couldnt understand what this is for it's keeping the code running and alive do NOT remove it like last time
   // it took me an eternity to find it in commit history
   // its not dead weight code as yu thought
